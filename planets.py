@@ -10,3 +10,5 @@ planet_list.append("Pluto")
 print(planet_list)
 rocky_planets = planet_list[0:4]
 print(rocky_planets)
+del planet_list[6]
+print(planet_list)
